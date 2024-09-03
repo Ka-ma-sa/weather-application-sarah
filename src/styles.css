@@ -1,0 +1,99 @@
+body,
+.form {
+  background-color: #e7eaf6;
+  font-family: "Poppins", sans-serif;
+}
+
+div.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  margin: 80px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+div.search-row {
+  padding: 20px 0;
+  border-bottom: solid rgba(33, 39, 60, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.form.input {
+  width: 70%;
+  border: none;
+  background-color: #e7eaf6;
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+
+.form.search-button {
+  width: 25%;
+  background-color: #a2a8d3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.form.search-button:hover {
+  background-color: #38598b;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 12px;
+  color: rgba(33, 39, 60, 0.7);
+  margin-top: 0;
+}
+
+strong {
+  color: rgb(246, 82, 130);
+}
+
+footer {
+  padding: 20px 0;
+  border-top: solid rgba(33, 39, 60, 0.1);
+}
+footer p {
+  text-align: center;
+}
+
+div.current-weather {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+div.location {
+  width: 50%;
+}
+div.temp-box {
+  position: relative;
+  width: 50%;
+}
+
+div.current-temp {
+  display: flex;
+  font-size: 80px;
+  font-weight: 600;
+  justify-content: end;
+}
+
+.current-temp .emoji {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+.current-temp .degree {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 15px;
+}

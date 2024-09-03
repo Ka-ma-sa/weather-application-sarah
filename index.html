@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Weather Application (Week4)</title>
+		<meta charset="UTF-8" />
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+		<link rel="stylesheet" href="src/styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<form id="city-serach-form">
+					<div class="search-row">
+						<input
+							type="search"
+							class="form input"
+							id="location-input"
+							placeholder="Enter a city.."
+							required />
+						<input type="submit" class="form search-button" value="Search" />
+					</div>
+				</form>
+			</header>
+			<main>
+				<div class="current-weather">
+					<div class="location">
+						<h1 id="location">Paris</h1>
+						<p>
+							<span id="weekday"></span>
+							<span id="current-time"></span>, moderate rain <br />
+							Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+						</p>
+					</div>
+					<div class="temp-box current-temp">
+						<span class="emoji">☀️</span><span id="realtime-temp">14</span>
+						<span class="degree">°C</span>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<p>
+					This project was coded by
+					<a href="#" target="_blank">Sarah Cheung</a> and is
+					<a href="#" target="_blank"> on GitHub</a> and
+					<a href="#" target="_blank">hosted on Netlify</a>
+				</p>
+			</footer>
+		</div>
+		<script src="src/index.js"></script>
+	</body>
+</html>
